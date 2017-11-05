@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebUSB LOL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../serial.js" defer></script>
+    <script src="lol.js" defer></script>
+    <link rel="stylesheet" href="lol.css">
+</head>
+
+<body>
+
+<main id="main">
+    <h1>WebUSB LOL</h1>
+
+    <section class="panel">
+
+    <div class="connection">
+        <p id="device"></p>
+        <button id="connect">connect</button>
+    </div>
+
+    <form id="form">
+        <p>Type your message to the world:</p>
+        <input type="text" id="text" autofocus required autocapitalize maxlength="100">
+        <input type="submit" value="show it ">
+    </form>
+    </section>
+</main>
+
+
+</body>
+</html>
