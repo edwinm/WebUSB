@@ -9,7 +9,7 @@ a popup appears and clicking it will open a website. On this site, you can chang
 download data etcetera. It works on every operating system, there's no local software to install and it's always up to date.
 
 Google provides instructions to build you own WebUSB device with an Arduino Leonardo.
-Not all Arduino's support WebUSB, like the UNO. See the []list of supported Arduino's](https://github.com/webusb/arduino) for WebUSB support.
+Not all Arduino's support WebUSB, like the UNO. See the [list of supported Arduino's](https://github.com/webusb/arduino) for WebUSB support.
 
 On this same page you can read how to change an Arduino source file to make it support USB 2.1.
 
